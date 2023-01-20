@@ -1,16 +1,16 @@
 //creo la matriz de 1003x1003
 const n = 1003.0;
 let matrix = new Array(n);
-for (let i = 0.0; i < n; i++) {
+for (let i = 0; i < n; i++) {
     matrix[i] = new Array(n);
 }
 
 //inicializo las variables que voy a usar para recorrer la matriz
 let x = Math.floor(n/2);
 let y = x;
-let dx = 0.0;
-let dy = -1.0;
-let num = 1.0;
+let dx = 0;
+let dy = -1;
+let num = 1;
 
 //recorro la matriz
 for (let i = 0.0; i < n*n; i++) {
